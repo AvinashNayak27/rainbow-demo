@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@coinbase/wallet-sdk': npm:@coinbase/wallet-sdk@4.0.0-beta.12
+
 dependencies:
   '@rainbow-me/rainbowkit':
     specifier: ^2.1.1
@@ -1528,8 +1531,8 @@ packages:
       - supports-color
     dev: false
 
-  /@coinbase/wallet-sdk@4.0.2:
-    resolution: {integrity: sha512-WMUeFbtS0rn8zavjAmNhFWq1r3TV7E5KuSij1Sar0/XuOC+nhj96uqSlIApAHdhuScoKZBq39VYsAQCHzOC6/w==}
+  /@coinbase/wallet-sdk@4.0.0-beta.12:
+    resolution: {integrity: sha512-QauLJhN+XTKt1xYT8WWsoD0+4ye9FpgYzlqxk6IKhadh8VoJgixF8sQdCcBdpvUMEpjsoGYBC7tjGflzqFiXdw==}
     dependencies:
       buffer: 6.0.3
       clsx: 1.2.1
@@ -3158,7 +3161,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@coinbase/wallet-sdk': 4.0.2
+      '@coinbase/wallet-sdk': 4.0.0-beta.12
       '@metamask/sdk': 0.20.3(react-dom@18.3.1)(react-i18next@13.5.0)(react-native@0.74.1)(react@18.3.1)
       '@safe-global/safe-apps-provider': 0.18.1(typescript@5.4.2)
       '@safe-global/safe-apps-sdk': 8.1.0(typescript@5.4.2)
